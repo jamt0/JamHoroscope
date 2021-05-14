@@ -1,12 +1,11 @@
 import React, { FunctionComponent } from "react";
-import { Container } from "JamUI";
 
 type Props = {};
 
 const Error: FunctionComponent<Props> = (props) => (
-  <Container color="danger" className="px-6 py-3">
+  <div className="px-6 py-3 bg-red-500 text-white">
     {props.children}
-  </Container>
+  </div>
 );
 
 export default Error;

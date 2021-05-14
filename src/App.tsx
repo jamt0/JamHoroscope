@@ -1,5 +1,5 @@
 import React from 'react';
-import AppRoutes from 'App.routes';
+import AppRoutes from 'routes/App.routes';
 import { IonApp } from '@ionic/react';
 
 /* Core CSS required for Ionic components to work properly */

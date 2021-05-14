@@ -1,4 +1,8 @@
-# Jam Ionic React
+# JamHoroscope
 
 
-Template Ionic Framework and React, Tailwinds, React Hook Form y React Lottie.
+Ionic Framework and React, Tailwinds, React Hook Form y React Lottie.
+
+Steps:
+-npm install
+-npm start

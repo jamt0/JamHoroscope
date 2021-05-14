@@ -11,8 +11,13 @@ module.exports = plop => {
       actions: [
         {
           type: 'add',
-          path: 'src/components/{{pascalCase name}}/{{pascalCase name}}.tsx',
+          path: 'src/components/containers/{{pascalCase name}}/index.tsx',
           templateFile: 'plop_templates/Component.tsx.hbs',
+        },
+        {
+          type: 'add',
+          path: 'src/components/layouts/{{pascalCase name}}/index.tsx',
+          templateFile: 'plop_templates/ComponentView.tsx.hbs',
         },
       ],
     });
@@ -28,12 +33,12 @@ module.exports = plop => {
         actions: [
           {
             type: 'add',
-            path: 'src/pages/{{pascalCase name}}/{{pascalCase name}}.tsx',
+            path: 'src/pages/containers/{{pascalCase name}}/index.tsx',
             templateFile: 'plop_templates/Page.tsx.hbs',
           },
           {
             type: 'add',
-            path: 'src/pages/{{pascalCase name}}/{{pascalCase name}}View.tsx',
+            path: 'src/pages/layouts/{{pascalCase name}}View/index.tsx',
             templateFile: 'plop_templates/PageView.tsx.hbs',
           },
         ],

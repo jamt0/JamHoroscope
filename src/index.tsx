@@ -1,6 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from 'App';
-import 'assets/main.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "App";
+import "assets/main.css";
+import { DataProvider } from "context/userData";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <DataProvider>
+    <App />
+  </DataProvider>,
+  document.getElementById("root")
+);

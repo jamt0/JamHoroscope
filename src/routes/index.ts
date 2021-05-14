@@ -1,6 +1,9 @@
 const RoutesPath = {
     welcome: "/",
-    home: "/home/"
+    home: "/home/",
+    gender: "/gender/",
+    data: "/data/",
+    horoscope: "/horoscope/",
   }
   
   export default RoutesPath;

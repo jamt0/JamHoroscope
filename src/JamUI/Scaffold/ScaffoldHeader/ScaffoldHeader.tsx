@@ -6,11 +6,12 @@ import ScaffoldHeaderBackAction from "JamUI/Scaffold/ScaffoldHeader/ScaffoldHead
 type Props = {
   children: React.ReactNode;
   title?: string;
+  color?: string;
 };
 
 const ScaffoldHeader = (props: Props) => (
   <IonHeader>
-    <IonToolbar>
+    <IonToolbar color={props.color}>
       <IonTitle>
         <div className="md:flex md:justify-center">{props.title}</div>
       </IonTitle>
